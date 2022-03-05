@@ -6,7 +6,7 @@ module.exports = {
     warnOnUnsupportedTypeScriptVersion: true,
   },
   plugins: ['@typescript-eslint', 'import', 'promise'],
-  extends: ['airbnb-base', 'plugin:@typescript-eslint/recommended'],
+  extends: ['airbnb-base', 'plugin:@typescript-eslint/recommended', 'prettier'],
   root: true,
   env: {
     node: true,
